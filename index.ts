@@ -11,6 +11,7 @@ const answers: {
   numberOne: number;
   numberTwo: number;
   operator: string;
+  hasil: number;
 } = await inquirer.prompt([
   {
     type: "number",
@@ -31,7 +32,7 @@ const answers: {
 ]);
 
 // menampilkan output hasil
-const { numberOne, numberTwo, operator } = answers;
+const { numberOne, numberTwo, operator, hasil } = answers;
 
 if (numberOne && numberTwo && operator) {
   let result: number = 0;
@@ -41,6 +42,7 @@ if (numberOne && numberTwo && operator) {
       angka1: numberOne,
       angka2: numberTwo,
       operator: operator,
+      hasil: result,
     };
     pool.query("insert into kalku_ts set ?", data);
   } else if (operator === "-") {
@@ -49,6 +51,7 @@ if (numberOne && numberTwo && operator) {
       angka1: numberOne,
       angka2: numberTwo,
       operator: operator,
+      hasil: result,
     };
     pool.query("insert into kalku_ts set ?", data);
   } else if (operator === "/") {
@@ -58,6 +61,7 @@ if (numberOne && numberTwo && operator) {
         angka1: numberOne,
         angka2: numberTwo,
         operator: operator,
+        hasil: result,
       };
       pool.query("insert into kalku_ts set ?", data);
     } else {
@@ -69,6 +73,7 @@ if (numberOne && numberTwo && operator) {
       angka1: numberOne,
       angka2: numberTwo,
       operator: operator,
+      hasil: result,
     };
     pool.query("insert into kalku_ts set ?", data);
   } else {
