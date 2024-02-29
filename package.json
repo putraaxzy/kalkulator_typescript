@@ -11,9 +11,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^9.2.15"
+    "inquirer": "^9.2.15",
+    "mysql": "^2.18.1"
   },
   "devDependencies": {
-    "@types/inquirer": "^9.0.7"
+    "@types/inquirer": "^9.0.7",
+    "@types/mysql": "^2.15.25"
   }
 }
