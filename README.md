@@ -3,8 +3,6 @@
 
 [![N|Solid](https://logowik.com/content/uploads/images/mysql.jpg)](https://nodesource.com/products/nsolid)
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
-
 Ini adalah project kalkulator berbasis typescript dan di gabungkan dengan
 MySQL. Ini adalah ujian kejuruan dari kelas XII - RPL SMKS BATIK PERBAIK PURWOREJO
 - Typescript
