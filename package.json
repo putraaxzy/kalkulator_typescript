@@ -12,7 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "inquirer": "^9.2.15",
-    "mysql": "^2.18.1"
+    "mysql": "^2.18.1",
+    "typescript": "^5.3.3"
   },
   "devDependencies": {
     "@types/inquirer": "^9.0.7",
