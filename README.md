@@ -8,7 +8,7 @@ MySQL. Ini adalah ujian kejuruan dari kelas XII - RPL SMKS BATIK PERBAIK PURWORE
 - Typescript
 - Javascript
 - MySQL
-- Database
+- Laragon
 ## Features
 
 - Pure CLI 
