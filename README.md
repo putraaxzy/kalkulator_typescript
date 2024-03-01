@@ -46,18 +46,6 @@ git clone https://github.com/putraaxzy/kalkulator_typescript.git kalku
 cd kalku
 ```
 
-
-Untuk installasi package/library
-Screenshot: 
-![here](https://raw.githubusercontent.com/putraaxzy/kalkulator_typescript/master/img/npm.png)
-
-```sh
-npm i typescript
-npm i inquirer
-npm i @types/inquirer
-```
-
-
 ## Development
 
 Want to contribute? Great!
