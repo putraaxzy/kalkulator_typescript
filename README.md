@@ -46,11 +46,6 @@ git clone https://github.com/putraaxzy/kalkulator_typescript.git kalku
 cd kalku
 ```
 
-Untuk initialisasi typescript
-
-```sh
-tsc --init
-```
 
 Untuk installasi package/library
 Screenshot: 
