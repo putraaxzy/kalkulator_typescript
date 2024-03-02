@@ -56,16 +56,11 @@ Compile typescript -> javascript
 tsc
 ```
 
-Installasi esrun untuk menjalankan typescript
+Menjalankan code program
 
 ```sh
-npm i esrun
-```
-
-Jika mengalami error 'await' error
-
-```sh
-npx esrun index.ts
+node index.js
+node database.js
 ```
 
 #### Building for source
